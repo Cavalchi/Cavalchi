@@ -15,9 +15,15 @@
 
 
 ## Meu LinkedIn
-[<img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' alt='linkedin' height='30'>]
-      (https://www.linkedin.com/in/joão-pedro-carvalho-92837521a/)
-      
+[<img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>][linkedin]
+
+<br>
+
+ [linkedin]:https://www.linkedin.com/in/joão-pedro-carvalho-92837521a/
+    
+ <br>
+  <br>
+  <br>
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=cavalchi&theme=onedark&hide=contribs,prs)
 
@@ -27,3 +33,7 @@
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cavalchi&theme=onedark&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+      
+      
+     
