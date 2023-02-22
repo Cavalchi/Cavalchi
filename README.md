@@ -30,7 +30,6 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=cavalchi&theme=onedark&hide=contribs,prs)
 
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cavalchi&theme=onedark&repo=cavalchi)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
