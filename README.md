@@ -5,9 +5,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=3000&color=FF8000&center=true&vCenter=true&width=500&lines=João+Pedro+Cavalchi+de+Carvalho" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=joaopedro-cavalchi" alt="Visitantes" />
-</p>
 
 <p align="center">
   🚗💨 &nbsp; 💻📊 &nbsp; 📈⚙️
@@ -67,15 +64,11 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
 
 ## 🌐 Acesse meu site
 
-🔗 ## 🌐 Acesse meu site
+🔗 [Meu Portfólio](https://cavalchi.netlify.app) &nbsp;&nbsp; | &nbsp;&nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-cavalchi-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cavalchi/)
 
-🔗 [Acesse meu portfólio aqui](https://cavalchi.netlify.app)
+--------
 
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=joaopedro-cavalchi" alt="Visitantes" />
+</p>
 
----
-
-## 📬 Meu Linkedin
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-cavalchi-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cavalchi/)
-
----
