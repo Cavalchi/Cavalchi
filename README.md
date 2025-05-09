@@ -62,9 +62,11 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
 
 ---
 
-## 🌐 Acesse meu site
 
-🔗 [Meu Portfólio](https://cavalchi.netlify.app) &nbsp;&nbsp; | &nbsp;&nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-cavalchi-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cavalchi/)
+## 🌐 Veja mais
+
+🔗 [<img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>](https://www.linkedin.com/in/cavalchi/) &nbsp;&nbsp;|&nbsp;&nbsp; [<img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/web/web-original.svg"/>](https://cavalchi.netlify.app)
+
 
 --------
 
