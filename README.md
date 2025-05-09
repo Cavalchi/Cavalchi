@@ -1,18 +1,18 @@
 <h1 align="center">👋 Bem-vindo(a) ao meu GitHub!</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FF8000&center=true&vCenter=true&width=435&lines=Sou+João+Pedro+Cavalchi+de+Carvalho;Cientista+de+Dados+%F0%9F%A7%A0;Foco+em+Performance+%26+Estratégia;Apaixonado+por+resolver+problemas+com+dados!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=3000&color=FF8000&center=true&vCenter=true&repeat=false&width=500&lines=Jo%C3%A3o+Pedro+Cavalchi+de+Carvalho" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <strong>🚗💨</strong>&nbsp;&nbsp;<strong>💻📊</strong>&nbsp;&nbsp;<strong>📈⚙️</strong>
+  <strong>🚗</strong>&nbsp;⬅️➡️&nbsp;<strong>💻📊</strong>&nbsp;&nbsp;<strong>📈⚙️</strong>
 </p>
 
 ---
 
 ## 💡 Sobre Mim
 
-Sou Cientista de Dados com +8 anos de experiência em projetos que envolvem:
+Sou Cientista de Dados com +2 anos de experiência em projetos que envolvem:
 
 - Análise de performance e estratégia (com forte atuação em **dados automobilísticos**)
 - BI com **Power BI**, **SQL Server** e **modelagem de dados**
@@ -20,6 +20,16 @@ Sou Cientista de Dados com +8 anos de experiência em projetos que envolvem:
 - Transformação de dados em **decisões com impacto real**
 
 Atualmente, foco em criar soluções **Data Driven** para otimização de processos, estudos preditivos e aplicações interativas.
+
+---
+
+## 🌐 Meu Site
+
+<p align="center">
+  <a href="https://seusite.com" target="_blank">
+    <img src="https://img.shields.io/badge/Acesse%20meu%20site-FF8000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Site do João Cavalchi">
+  </a>
+</p>
 
 ---
 
@@ -33,6 +43,7 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
+
 ### 📊 BI, Bancos e Infraestrutura
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
@@ -41,20 +52,6 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
 ![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### 🧩 Desenvolvimento & Web
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)
-
-### ☁️ Nuvem
-![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-
-### 🏎️ Automobilismo & Dados
-![FastF1](https://img.shields.io/badge/FastF1-202020?style=for-the-badge&logo=python&logoColor=red)
-![Fórmula 1](https://img.shields.io/badge/F1%20Analysis-FF1801?style=for-the-badge&logo=formula1&logoColor=white)
 
 ---
 
@@ -68,12 +65,6 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
 
 ---
 
-## 📬 Vamos nos conectar?
+## 📬 Meu LinkedIn!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-cavalchi-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cavalchi/)
-
----
-
-<p align="center">
-  <strong>🚀 Sempre evoluindo com dados. Sempre acelerando com propósito. 🧠🏁</strong>
-</p>
