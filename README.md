@@ -5,12 +5,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=3000&color=FF8000&center=true&vCenter=true&width=500&lines=João+Pedro+Cavalchi+de+Carvalho" alt="Typing SVG" />
 </p>
 
-<!-- Expertise + contador -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Especialista%20em-Performance%20Automobilística-FF8000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Projetos%20Data%20Driven-Ativos-blue?style=for-the-badge" />
-</p>
-
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=joaopedro-cavalchi" alt="Visitantes" />
 </p>
@@ -73,7 +67,10 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
 
 ## 🌐 Acesse meu site
 
-🔗 [https://seusite.com.br]([https://seusite.com.br](https://cavalchi.netlify.app/))
+🔗 ## 🌐 Acesse meu site
+
+🔗 [Acesse meu portfólio aqui](https://cavalchi.netlify.app)
+
 
 ---
 
