@@ -65,8 +65,7 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
 
 ## 🌐 Veja mais
 
-[![Website](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/http.png)](https://cavalchi.netlify.app) &nbsp;&nbsp;|&nbsp;&nbsp; [![LinkedIn](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/linkedin.png)](https://www.linkedin.com/in/cavalchi/)
-
+ [Acesse meu portfólio aqui] &nbsp;&nbsp;|&nbsp;&nbsp; [<img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>](https://www.linkedin.com/in/cavalchi/)
 
 
 
@@ -76,3 +75,8 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
   <img src="https://visitor-badge.laobi.icu/badge?page_id=joaopedro-cavalchi" alt="Visitantes" />
 </p>
 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Especialista%20em-Performance%20Automobilística-FF8000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projetos%20Data%20Driven-Ativos-blue?style=for-the-badge" />
+</p>
