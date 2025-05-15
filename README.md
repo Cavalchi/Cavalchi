@@ -14,7 +14,7 @@
 
 ## 💡 Sobre Mim
 
-Sou Cientista de Dados com +2 anos de experiência em projetos que envolvem:
+  Sou Cientista de Dados com +2 anos de experiência em projetos que envolvem:
 
 - Análise de performance e estratégia (com forte atuação em **dados automobilísticos**)
 - BI com **Power BI**, **SQL Server** e **modelagem de dados**
