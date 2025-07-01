@@ -61,7 +61,16 @@ Atualmente, foco em criar soluções **Data Driven** para otimização de proces
 - 🧠 **Estudos sobre clusters de pilotos e modelagem preditiva de corrida**
 
 ---
+## 🚀 Projetos em Destaque
 
+Aqui estão alguns dos projetos que demonstram minhas habilidades em análise, simulação e desenvolvimento.
+
+- 🏁 **[Simulação de Estratégia de Corrida - Bahrain GP 2025](https://github.com/Cavalchi/Bahrein-2025)**
+  - _Modelagem de desgaste de pneus e efeito de ar sujo para prever oportunidades de ultrapassagem com dados reais da F1._
+
+- 📊 **[Análise Tática Pós-Corrida - Australian GP 2025](https://github.com/Cavalchi/F1-Data-Analysis-16-03)**
+  - _Estudo de caso sobre gerenciamento de pneus, undercut/overcut e as estratégias vencedoras em uma corrida com condições climáticas variáveis._
+    
 
 ## 🌐 Veja mais
 
