@@ -12,17 +12,7 @@
   </a>
 </div>
 
-<br/>
 
-<!-- BADGES SOCIAIS -->
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/cavalchi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cavalchi/)
-  [![Portfolio](https://img.shields.io/badge/cavalchi.netlify.app-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cavalchi.netlify.app)
-  [![GitHub](https://img.shields.io/badge/Cavalchi-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cavalchi)
-  [![Views](https://komarev.com/ghpvc/?username=Cavalchi&label=PROFILE+VIEWS&color=1f6feb&style=for-the-badge)](https://github.com/Cavalchi)
-
-</div>
 
 <!-- ═══════════════════════════════════════════ -->
 <img src="./assets/divider.svg" width="100%"/>
@@ -171,7 +161,7 @@
   </picture>
 </div>
 
-> ⚠️ **Nota:** Após o primeiro push, vá em **Actions → Generate Snake Animation → Run workflow** para ativar.
+
 
 <!-- ═══════════════════════════════════════════ -->
 <img src="./assets/divider.svg" width="100%"/>
@@ -181,17 +171,30 @@
 
 <div align="center">
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cavalchi/)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cavalchi.netlify.app)
-  [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cavalchi@outlook.com)
+  <!-- BOTÕES ANIMADOS -->
+  <a href="https://www.linkedin.com/in/cavalchi/">
+    <img src="./assets/connect.svg" width="100%" alt="LinkedIn · Portfolio · Email"/>
+  </a>
 
   <br/>
+
+  <sub>
+    <a href="https://www.linkedin.com/in/cavalchi/">LinkedIn</a> · 
+    <a href="https://cavalchi.netlify.app">Portfolio</a> · 
+    <a href="mailto:cavalchi@outlook.com">Email</a>
+  </sub>
+
+  <br/><br/>
 
   ```
   "Data is the new oil, but pipelines are the refinery." ⛽→🏭→💎
   ```
 
   <br/>
+
+  <img src="https://komarev.com/ghpvc/?username=Cavalchi&label=Visitantes&color=1f6feb&style=flat-square" alt="Visitantes"/>
+
+  <br/><br/>
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer" width="100%"/>
 

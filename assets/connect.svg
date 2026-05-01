@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 70" width="700" height="70">
+  <defs>
+    <style>
+      @keyframes glow1 { 0%,100%{ filter: drop-shadow(0 0 4px rgba(10,102,194,0.3)); } 50%{ filter: drop-shadow(0 0 14px rgba(10,102,194,0.8)); } }
+      @keyframes glow2 { 0%,100%{ filter: drop-shadow(0 0 4px rgba(31,111,235,0.3)); } 50%{ filter: drop-shadow(0 0 14px rgba(31,111,235,0.8)); } }
+      @keyframes glow3 { 0%,100%{ filter: drop-shadow(0 0 4px rgba(234,67,53,0.3)); } 50%{ filter: drop-shadow(0 0 14px rgba(234,67,53,0.8)); } }
+      @keyframes shimmer { 0%{ transform: translateX(-100%); } 100%{ transform: translateX(200%); } }
+      @keyframes borderPulse1 { 0%,100%{ stroke-opacity: .4; } 50%{ stroke-opacity: 1; } }
+      @keyframes borderPulse2 { 0%,100%{ stroke-opacity: .4; } 50%{ stroke-opacity: 1; } }
+      @keyframes borderPulse3 { 0%,100%{ stroke-opacity: .4; } 50%{ stroke-opacity: 1; } }
+      .btn-bg { fill: #161b22; }
+      .btn-text { font-family: 'Segoe UI','Helvetica Neue',sans-serif; font-size: 14px; font-weight: 600; fill: #e6edf3; }
+      .btn-icon { font-size: 16px; }
+      .g1 { animation: glow1 3s ease-in-out infinite; }
+      .g2 { animation: glow2 3s ease-in-out infinite 1s; }
+      .g3 { animation: glow3 3s ease-in-out infinite 2s; }
+      .b1 { animation: borderPulse1 3s ease-in-out infinite; }
+      .b2 { animation: borderPulse2 3s ease-in-out infinite 1s; }
+      .b3 { animation: borderPulse3 3s ease-in-out infinite 2s; }
+    </style>
+    <clipPath id="clip1"><rect x="20" y="10" width="200" height="50" rx="10"/></clipPath>
+    <clipPath id="clip2"><rect x="245" y="10" width="200" height="50" rx="10"/></clipPath>
+    <clipPath id="clip3"><rect x="470" y="10" width="200" height="50" rx="10"/></clipPath>
+  </defs>
+
+  <!-- ══ LINKEDIN BUTTON ══ -->
+  <g class="g1">
+    <rect class="btn-bg" x="20" y="10" width="200" height="50" rx="10"/>
+    <rect x="20" y="10" width="200" height="50" rx="10" fill="none" stroke="#0A66C2" stroke-width="2" class="b1"/>
+    <!-- Shimmer -->
+    <rect x="20" y="10" width="60" height="50" rx="0" fill="url(#shimmer1)" clip-path="url(#clip1)" opacity=".15">
+      <animateTransform attributeName="transform" type="translate" values="-60,0;260,0" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text class="btn-icon" x="55" y="42" fill="#0A66C2">in</text>
+    <text class="btn-text" x="82" y="41">LinkedIn</text>
+  </g>
+
+  <!-- ══ PORTFOLIO BUTTON ══ -->
+  <g class="g2">
+    <rect class="btn-bg" x="245" y="10" width="200" height="50" rx="10"/>
+    <rect x="245" y="10" width="200" height="50" rx="10" fill="none" stroke="#1f6feb" stroke-width="2" class="b2"/>
+    <rect x="245" y="10" width="60" height="50" fill="rgba(31,111,235,0.1)" clip-path="url(#clip2)" opacity=".15">
+      <animateTransform attributeName="transform" type="translate" values="-60,0;260,0" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+    <text class="btn-icon" x="278" y="42" fill="#1f6feb">🌐</text>
+    <text class="btn-text" x="302" y="41">Portfolio</text>
+  </g>
+
+  <!-- ══ EMAIL BUTTON ══ -->
+  <g class="g3">
+    <rect class="btn-bg" x="470" y="10" width="200" height="50" rx="10"/>
+    <rect x="470" y="10" width="200" height="50" rx="10" fill="none" stroke="#EA4335" stroke-width="2" class="b3"/>
+    <rect x="470" y="10" width="60" height="50" fill="rgba(234,67,53,0.1)" clip-path="url(#clip3)" opacity=".15">
+      <animateTransform attributeName="transform" type="translate" values="-60,0;260,0" dur="3s" repeatCount="indefinite" begin="2s"/>
+    </rect>
+    <text class="btn-icon" x="505" y="42" fill="#EA4335">✉</text>
+    <text class="btn-text" x="530" y="41">Email</text>
+  </g>
+</svg>
