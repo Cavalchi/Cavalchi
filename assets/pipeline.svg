@@ -1,0 +1,107 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .node-bg { rx: 6; }
+      .node-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; text-anchor: middle; }
+      .node-sub { font-family: 'JetBrains Mono', monospace; font-size: 9px; text-anchor: middle; }
+      .conn { stroke-width: 1.5; fill: none; stroke-dasharray: 4 3; }
+    </style>
+    <filter id="ng">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1f6feb" opacity="0.7"/>
+    </marker>
+    <marker id="arr2" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1D9E75" opacity="0.7"/>
+    </marker>
+    <marker id="arr3" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#EF9F27" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="160" fill="#0d1117"/>
+
+  <!-- Layer labels -->
+  <text x="90" y="20" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3d444d" text-anchor="middle">SOURCE</text>
+  <text x="270" y="20" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3d444d" text-anchor="middle">INGEST</text>
+  <text x="450" y="20" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3d444d" text-anchor="middle">TRANSFORM</text>
+  <text x="630" y="20" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3d444d" text-anchor="middle">SERVE</text>
+  <text x="810" y="20" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3d444d" text-anchor="middle">CONSUME</text>
+
+  <!-- Connections -->
+  <line x1="140" y1="80" x2="210" y2="80" stroke="#1f6feb" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5" marker-end="url(#arr)">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="320" y1="80" x2="390" y2="80" stroke="#1f6feb" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5" marker-end="url(#arr)">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="510" y1="80" x2="572" y2="80" stroke="#1D9E75" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5" marker-end="url(#arr2)">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="690" y1="80" x2="750" y2="80" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5" marker-end="url(#arr3)">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Data packets flowing -->
+  <circle r="4" fill="#58a6ff" filter="url(#ng)" opacity="0">
+    <animate attributeName="cx" values="140;210;210;320;320;390;390;510;510;572;572;690;690;750" keyTimes="0;0.15;0.15;0.3;0.3;0.45;0.45;0.6;0.6;0.7;0.7;0.85;0.85;1" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;80;80;80;80;80;80;80;80;80;80;80;80;80" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#1D9E75" filter="url(#ng)" opacity="0">
+    <animate attributeName="cx" values="140;210;210;320;320;390;390;510;510;572;572;690;690;750" keyTimes="0;0.15;0.15;0.3;0.3;0.45;0.45;0.6;0.6;0.7;0.7;0.85;0.85;1" dur="4s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;80;80;80;80;80;80;80;80;80;80;80;80;80" dur="4s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0.8;0.8;0.8;0.8;0.8;0.8;0.8;0.8;0.8;0.8;0.8;0" dur="4s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- SOURCE node -->
+  <g filter="url(#ng)">
+    <rect x="30" y="55" width="110" height="50" rx="6" fill="#1f6feb15" stroke="#1f6feb" stroke-width="1" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="85" y="77" class="node-label" fill="#58a6ff">Raw Data</text>
+    <text x="85" y="91" class="node-sub" fill="#58a6ff88">DB · API · Files</text>
+  </g>
+
+  <!-- INGEST node -->
+  <g filter="url(#ng)">
+    <rect x="210" y="55" width="110" height="50" rx="6" fill="#1f6feb15" stroke="#1f6feb" stroke-width="1" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="265" y="77" class="node-label" fill="#58a6ff">Kafka</text>
+    <text x="265" y="91" class="node-sub" fill="#58a6ff88">Streaming · Batch</text>
+  </g>
+
+  <!-- TRANSFORM node -->
+  <g filter="url(#ng)">
+    <rect x="390" y="55" width="120" height="50" rx="6" fill="#1D9E7515" stroke="#1D9E75" stroke-width="1" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="450" y="77" class="node-label" fill="#1D9E75">Spark + dbt</text>
+    <text x="450" y="91" class="node-sub" fill="#1D9E7588">Bronze→Silver→Gold</text>
+  </g>
+
+  <!-- SERVE node -->
+  <g filter="url(#ng)">
+    <rect x="572" y="55" width="118" height="50" rx="6" fill="#EF9F2715" stroke="#EF9F27" stroke-width="1" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="631" y="77" class="node-label" fill="#EF9F27">BigQuery</text>
+    <text x="631" y="91" class="node-sub" fill="#EF9F2788">Snowflake · DW</text>
+  </g>
+
+  <!-- CONSUME node -->
+  <g filter="url(#ng)">
+    <rect x="750" y="55" width="118" height="50" rx="6" fill="#58a6ff15" stroke="#58a6ff" stroke-width="1" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="809" y="77" class="node-label" fill="#a0c4ff">Dashboard</text>
+    <text x="809" y="91" class="node-sub" fill="#a0c4ff88">Power BI · API</text>
+  </g>
+
+  <!-- Pipeline label bottom -->
+  <text x="450" y="148" font-family="'JetBrains Mono', monospace" font-size="10" fill="#3d444d" text-anchor="middle">// end-to-end data pipeline — lakehouse architecture</text>
+
+</svg>

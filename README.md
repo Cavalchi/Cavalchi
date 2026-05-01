@@ -33,16 +33,10 @@
 <img src="./assets/divider.svg" width="100%"/>
 <!-- ═══════════════════════════════════════════ -->
 
-## 🌌 &nbsp;De Caos a Insight
+## 🏗️ &nbsp;Pipeline Architecture
 
 <div align="center">
-  <img src="./assets/galaxy-pipeline.svg" width="100%" alt="Galaxy Pipeline - Dados brutos orbitando como estrelas, entrando no funil do pipeline e saindo organizados"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <em>Dados brutos orbitam como estrelas numa galáxia caótica → entram no vortex do pipeline → saem limpos, estruturados e prontos pra decisão.</em>
+  <img src="./assets/pipeline.svg" width="100%" alt="End-to-end data pipeline — SOURCE → INGEST → TRANSFORM → SERVE → CONSUME"/>
 </div>
 
 <!-- ═══════════════════════════════════════════ -->
@@ -98,52 +92,6 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-</div>
-
-<!-- ═══════════════════════════════════════════ -->
-<img src="./assets/divider.svg" width="100%"/>
-<!-- ═══════════════════════════════════════════ -->
-
-## 🚀 &nbsp;Projetos em Destaque
-
-<div align="center">
-
-<a href="https://github.com/Cavalchi/DataPulse">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cavalchi&repo=DataPulse&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e" />
-</a>
-&nbsp;
-<a href="https://github.com/Cavalchi/Pipeline-de-Vendas-E-commerce">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cavalchi&repo=Pipeline-de-Vendas-E-commerce&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e" />
-</a>
-
-<br/>
-
-<a href="https://github.com/Cavalchi/Dashboard_Python">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cavalchi&repo=Dashboard_Python&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e" />
-</a>
-&nbsp;
-<a href="https://github.com/Cavalchi/Bahrein-2025">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cavalchi&repo=Bahrein-2025&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e" />
-</a>
-
-</div>
-
-<!-- ═══════════════════════════════════════════ -->
-<img src="./assets/divider.svg" width="100%"/>
-<!-- ═══════════════════════════════════════════ -->
-
-## 📈 &nbsp;GitHub Analytics
-
-<div align="center">
-
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Cavalchi&show_icons=true&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&include_all_commits=true&count_private=true&rank_icon=github" />
-  &nbsp;
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cavalchi&layout=compact&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8" />
-
-  <br/><br/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Cavalchi&theme=github-dark-blue&border=30363d&background=0d1117&stroke=30363d&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" alt="Streak"/>
 
 </div>
 
