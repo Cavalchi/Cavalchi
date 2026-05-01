@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 12" width="900" height="12">
+  <defs>
+    <style>
+      @keyframes sweep { 0%{ transform: translateX(-300px) } 100%{ transform: translateX(900px) } }
+      .base-line { stroke: #21262d; stroke-width: 1; }
+      .glow-line { stroke: #1f6feb; stroke-width: 2; stroke-linecap: round; filter: drop-shadow(0 0 6px #58a6ff); animation: sweep 3s ease-in-out infinite; }
+    </style>
+  </defs>
+  <line class="base-line" x1="0" y1="6" x2="900" y2="6"/>
+  <line class="glow-line" x1="0" y1="6" x2="120" y2="6">
+    <animate attributeName="x1" values="-120;900" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;1020" dur="3s" repeatCount="indefinite"/>
+  </line>
+</svg>

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320">
+  <defs>
+    <style>
+      @keyframes pulse1 { 0%,100%{ r: 28; opacity:.6 } 50%{ r: 32; opacity:1 } }
+      @keyframes pulse2 { 0%,100%{ r: 28; opacity:.6 } 50%{ r: 32; opacity:1 } }
+      @keyframes pulse3 { 0%,100%{ r: 28; opacity:.6 } 50%{ r: 32; opacity:1 } }
+      @keyframes dashFlow { to { stroke-dashoffset: -20; } }
+      @keyframes fadeUp1 { from { opacity:0; transform:translateY(15px) } to { opacity:1; transform:translateY(0) } }
+      @keyframes fadeUp2 { from { opacity:0; transform:translateY(15px) } to { opacity:1; transform:translateY(0) } }
+      @keyframes fadeUp3 { from { opacity:0; transform:translateY(15px) } to { opacity:1; transform:translateY(0) } }
+      @keyframes textGlow { 0%,100%{ filter: drop-shadow(0 0 6px rgba(88,166,255,0.3)) } 50%{ filter: drop-shadow(0 0 18px rgba(88,166,255,0.7)) } }
+      @keyframes dotPulse { 0%,100%{ opacity:.15 } 50%{ opacity:.35 } }
+
+      .bg { fill: #0d1117; }
+      .grid-dot { fill: #21262d; opacity: .2; animation: dotPulse 4s ease-in-out infinite; }
+      .name { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 40px; font-weight: 700; fill: #e6edf3; text-anchor: middle; opacity:0; animation: fadeUp1 1s ease forwards .3s; }
+      .role { font-family: 'Segoe UI', sans-serif; font-size: 15px; fill: #58a6ff; text-anchor: middle; letter-spacing: 6px; text-transform: uppercase; opacity:0; animation: fadeUp2 1s ease forwards .7s; }
+      .tagline { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #8b949e; text-anchor: middle; letter-spacing: 2px; opacity:0; animation: fadeUp3 1s ease forwards 1.1s; }
+      .name-glow { animation: textGlow 4s ease-in-out infinite; }
+      .pipe-line { stroke: #21262d; stroke-width: 2; fill: none; }
+      .pipe-flow { stroke: #1f6feb; stroke-width: 2; fill: none; stroke-dasharray: 8 12; animation: dashFlow 1s linear infinite; }
+      .node-ring { fill: none; stroke: #1f6feb; stroke-width: 2; }
+      .node-bg { fill: #0d1117; }
+      .node-icon { fill: #58a6ff; font-family: 'Segoe UI', sans-serif; font-size: 20px; text-anchor: middle; dominant-baseline: central; }
+      .node-label { fill: #8b949e; font-family: 'Segoe UI', sans-serif; font-size: 10px; text-anchor: middle; letter-spacing: 3px; text-transform: uppercase; }
+      .n1 { animation: pulse1 3s ease-in-out infinite; }
+      .n2 { animation: pulse2 3s ease-in-out infinite .8s; }
+      .n3 { animation: pulse3 3s ease-in-out infinite 1.6s; }
+    </style>
+    <linearGradient id="topFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="glow1"><feGaussianBlur stdDeviation="6" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="900" height="320" rx="0"/>
+  <rect width="900" height="100" fill="url(#topFade)"/>
+
+  <!-- Grid dots -->
+  <g>
+    <circle class="grid-dot" cx="50" cy="50" r="1"/><circle class="grid-dot" cx="100" cy="50" r="1"/><circle class="grid-dot" cx="150" cy="50" r="1"/><circle class="grid-dot" cx="200" cy="50" r="1"/><circle class="grid-dot" cx="250" cy="50" r="1"/><circle class="grid-dot" cx="300" cy="50" r="1"/><circle class="grid-dot" cx="350" cy="50" r="1"/><circle class="grid-dot" cx="400" cy="50" r="1"/><circle class="grid-dot" cx="450" cy="50" r="1"/><circle class="grid-dot" cx="500" cy="50" r="1"/><circle class="grid-dot" cx="550" cy="50" r="1"/><circle class="grid-dot" cx="600" cy="50" r="1"/><circle class="grid-dot" cx="650" cy="50" r="1"/><circle class="grid-dot" cx="700" cy="50" r="1"/><circle class="grid-dot" cx="750" cy="50" r="1"/><circle class="grid-dot" cx="800" cy="50" r="1"/><circle class="grid-dot" cx="850" cy="50" r="1"/>
+    <circle class="grid-dot" cx="50" cy="100" r="1"/><circle class="grid-dot" cx="100" cy="100" r="1"/><circle class="grid-dot" cx="150" cy="100" r="1"/><circle class="grid-dot" cx="200" cy="100" r="1"/><circle class="grid-dot" cx="250" cy="100" r="1"/><circle class="grid-dot" cx="300" cy="100" r="1"/><circle class="grid-dot" cx="350" cy="100" r="1"/><circle class="grid-dot" cx="400" cy="100" r="1"/><circle class="grid-dot" cx="450" cy="100" r="1"/><circle class="grid-dot" cx="500" cy="100" r="1"/><circle class="grid-dot" cx="550" cy="100" r="1"/><circle class="grid-dot" cx="600" cy="100" r="1"/><circle class="grid-dot" cx="650" cy="100" r="1"/><circle class="grid-dot" cx="700" cy="100" r="1"/><circle class="grid-dot" cx="750" cy="100" r="1"/><circle class="grid-dot" cx="800" cy="100" r="1"/><circle class="grid-dot" cx="850" cy="100" r="1"/>
+    <circle class="grid-dot" cx="50" cy="150" r="1"/><circle class="grid-dot" cx="100" cy="150" r="1"/><circle class="grid-dot" cx="150" cy="150" r="1"/><circle class="grid-dot" cx="200" cy="150" r="1"/><circle class="grid-dot" cx="250" cy="150" r="1"/><circle class="grid-dot" cx="300" cy="150" r="1"/><circle class="grid-dot" cx="350" cy="150" r="1"/><circle class="grid-dot" cx="400" cy="150" r="1"/><circle class="grid-dot" cx="450" cy="150" r="1"/><circle class="grid-dot" cx="500" cy="150" r="1"/><circle class="grid-dot" cx="550" cy="150" r="1"/><circle class="grid-dot" cx="600" cy="150" r="1"/><circle class="grid-dot" cx="650" cy="150" r="1"/><circle class="grid-dot" cx="700" cy="150" r="1"/><circle class="grid-dot" cx="750" cy="150" r="1"/><circle class="grid-dot" cx="800" cy="150" r="1"/><circle class="grid-dot" cx="850" cy="150" r="1"/>
+    <circle class="grid-dot" cx="50" cy="270" r="1"/><circle class="grid-dot" cx="100" cy="270" r="1"/><circle class="grid-dot" cx="150" cy="270" r="1"/><circle class="grid-dot" cx="200" cy="270" r="1"/><circle class="grid-dot" cx="250" cy="270" r="1"/><circle class="grid-dot" cx="300" cy="270" r="1"/><circle class="grid-dot" cx="350" cy="270" r="1"/><circle class="grid-dot" cx="400" cy="270" r="1"/><circle class="grid-dot" cx="450" cy="270" r="1"/><circle class="grid-dot" cx="500" cy="270" r="1"/><circle class="grid-dot" cx="550" cy="270" r="1"/><circle class="grid-dot" cx="600" cy="270" r="1"/><circle class="grid-dot" cx="650" cy="270" r="1"/><circle class="grid-dot" cx="700" cy="270" r="1"/><circle class="grid-dot" cx="750" cy="270" r="1"/><circle class="grid-dot" cx="800" cy="270" r="1"/><circle class="grid-dot" cx="850" cy="270" r="1"/>
+  </g>
+
+  <!-- Name -->
+  <g class="name-glow">
+    <text class="name" x="450" y="85">João Pedro Cavalchi</text>
+  </g>
+  <text class="role" x="450" y="118">Data Engineer</text>
+  <text class="tagline" x="450" y="148">Python · SQL · Spark · Airflow · Cloud</text>
+
+  <!-- Pipeline: EXTRACT → TRANSFORM → LOAD -->
+  <!-- Lines -->
+  <line class="pipe-line" x1="285" y1="230" x2="405" y2="230"/>
+  <line class="pipe-flow" x1="285" y1="230" x2="405" y2="230"/>
+  <line class="pipe-line" x1="495" y1="230" x2="615" y2="230"/>
+  <line class="pipe-flow" x1="495" y1="230" x2="615" y2="230"/>
+
+  <!-- Particles flowing (SMIL) -->
+  <circle r="3" fill="#58a6ff" opacity="0">
+    <animateMotion dur="2s" repeatCount="indefinite" begin="0s" path="M285,230 L405,230"/>
+    <animate attributeName="opacity" values="0;.9;.9;0" dur="2s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle r="3" fill="#58a6ff" opacity="0">
+    <animateMotion dur="2s" repeatCount="indefinite" begin="0.7s" path="M285,230 L405,230"/>
+    <animate attributeName="opacity" values="0;.9;.9;0" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+  </circle>
+  <circle r="3" fill="#58a6ff" opacity="0">
+    <animateMotion dur="2s" repeatCount="indefinite" begin="1.4s" path="M285,230 L405,230"/>
+    <animate attributeName="opacity" values="0;.9;.9;0" dur="2s" repeatCount="indefinite" begin="1.4s"/>
+  </circle>
+  <circle r="3" fill="#3fb950" opacity="0">
+    <animateMotion dur="2s" repeatCount="indefinite" begin="0.3s" path="M495,230 L615,230"/>
+    <animate attributeName="opacity" values="0;.9;.9;0" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle r="3" fill="#3fb950" opacity="0">
+    <animateMotion dur="2s" repeatCount="indefinite" begin="1s" path="M495,230 L615,230"/>
+    <animate attributeName="opacity" values="0;.9;.9;0" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle r="3" fill="#3fb950" opacity="0">
+    <animateMotion dur="2s" repeatCount="indefinite" begin="1.7s" path="M495,230 L615,230"/>
+    <animate attributeName="opacity" values="0;.9;.9;0" dur="2s" repeatCount="indefinite" begin="1.7s"/>
+  </circle>
+
+  <!-- Node 1: EXTRACT -->
+  <circle class="node-bg" cx="250" cy="230" r="32"/>
+  <circle class="node-ring n1" cx="250" cy="230" r="28"/>
+  <text class="node-icon" x="250" y="232">⛏</text>
+  <text class="node-label" x="250" y="278">Extract</text>
+
+  <!-- Node 2: TRANSFORM -->
+  <circle class="node-bg" cx="450" cy="230" r="32"/>
+  <circle class="node-ring n2" cx="450" cy="230" r="28"/>
+  <text class="node-icon" x="450" y="232">⚙</text>
+  <text class="node-label" x="450" y="278">Transform</text>
+
+  <!-- Node 3: LOAD -->
+  <circle class="node-bg" cx="650" cy="230" r="32"/>
+  <circle class="node-ring n3" cx="650" cy="230" r="28"/>
+  <text class="node-icon" x="650" y="232">📊</text>
+  <text class="node-label" x="650" y="278">Load</text>
+
+  <!-- Decorative side lines -->
+  <line x1="80" y1="230" x2="218" y2="230" stroke="#21262d" stroke-width="1" stroke-dasharray="4 8" opacity=".4"/>
+  <line x1="682" y1="230" x2="820" y2="230" stroke="#21262d" stroke-width="1" stroke-dasharray="4 8" opacity=".4"/>
+
+  <!-- Glow circles behind nodes -->
+  <circle cx="250" cy="230" r="40" fill="none" stroke="#1f6feb" stroke-width="1" opacity=".15">
+    <animate attributeName="r" values="35;45;35" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".15;.05;.15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="230" r="40" fill="none" stroke="#1f6feb" stroke-width="1" opacity=".15">
+    <animate attributeName="r" values="35;45;35" dur="3s" repeatCount="indefinite" begin=".8s"/>
+    <animate attributeName="opacity" values=".15;.05;.15" dur="3s" repeatCount="indefinite" begin=".8s"/>
+  </circle>
+  <circle cx="650" cy="230" r="40" fill="none" stroke="#3fb950" stroke-width="1" opacity=".15">
+    <animate attributeName="r" values="35;45;35" dur="3s" repeatCount="indefinite" begin="1.6s"/>
+    <animate attributeName="opacity" values=".15;.05;.15" dur="3s" repeatCount="indefinite" begin="1.6s"/>
+  </circle>
+</svg>

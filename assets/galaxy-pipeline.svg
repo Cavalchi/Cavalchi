@@ -1,0 +1,272 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420">
+  <defs>
+    <style>
+      .star { fill: #fff; }
+      .label { font-family: 'Segoe UI','Helvetica Neue',sans-serif; letter-spacing: 3px; text-transform: uppercase; }
+      .label-dim { font-size: 10px; fill: #6e7681; }
+      .label-blue { font-size: 12px; fill: #58a6ff; font-weight: 600; }
+      .label-green { font-size: 10px; fill: #3fb950; }
+      .funnel-line { stroke: #1f6feb; stroke-width: 1.5; fill: none; opacity: .5; }
+      .funnel-spiral { fill: none; stroke: #1f6feb; stroke-width: 1; }
+      .out-bar { rx: 3; fill: #58a6ff; }
+      @keyframes twk1 { 0%,100%{opacity:.15} 50%{opacity:.7} }
+      @keyframes twk2 { 0%,100%{opacity:.1} 50%{opacity:.6} }
+      @keyframes twk3 { 0%,100%{opacity:.2} 50%{opacity:.9} }
+      @keyframes coreP { 0%,100%{opacity:.25} 50%{opacity:.55} }
+      @keyframes barIn { 0%{opacity:0;transform:translateX(-12px)} 30%{opacity:.85;transform:translateX(0)} 70%{opacity:.85} 100%{opacity:0} }
+    </style>
+    <filter id="gl"><feGaussianBlur stdDeviation="4"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="gl2"><feGaussianBlur stdDeviation="8"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="gc" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity=".35"/>
+      <stop offset="40%" stop-color="#1f6feb" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gc2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="420" fill="#0d1117"/>
+
+  <!-- ════════ STAR FIELD ════════ -->
+  <circle class="star" cx="30" cy="18" r=".7" opacity=".3"><animate attributeName="opacity" values=".1;.7;.1" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="95" cy="55" r=".5" opacity=".2"><animate attributeName="opacity" values=".1;.5;.1" dur="4.1s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="142" cy="12" r=".8" opacity=".3"><animate attributeName="opacity" values=".15;.8;.15" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="210" cy="38" r=".6" opacity=".2"><animate attributeName="opacity" values=".1;.6;.1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="280" cy="20" r=".7" opacity=".25"><animate attributeName="opacity" values=".1;.7;.1" dur="4.3s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="365" cy="45" r=".5" opacity=".2"><animate attributeName="opacity" values=".15;.55;.15" dur="3.9s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="430" cy="15" r=".8" opacity=".3"><animate attributeName="opacity" values=".1;.75;.1" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="520" cy="35" r=".6" opacity=".2"><animate attributeName="opacity" values=".1;.65;.1" dur="3.7s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="610" cy="22" r=".7" opacity=".25"><animate attributeName="opacity" values=".15;.7;.15" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="690" cy="50" r=".5" opacity=".2"><animate attributeName="opacity" values=".1;.5;.1" dur="3.3s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="760" cy="18" r=".8" opacity=".3"><animate attributeName="opacity" values=".1;.8;.1" dur="2.9s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="830" cy="40" r=".6" opacity=".2"><animate attributeName="opacity" values=".15;.6;.15" dur="4.0s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="870" cy="12" r=".5" opacity=".25"><animate attributeName="opacity" values=".1;.55;.1" dur="3.6s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="55" cy="380" r=".6" opacity=".2"><animate attributeName="opacity" values=".1;.6;.1" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="150" cy="395" r=".7" opacity=".25"><animate attributeName="opacity" values=".15;.7;.15" dur="4.2s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="310" cy="388" r=".5" opacity=".2"><animate attributeName="opacity" values=".1;.5;.1" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="480" cy="395" r=".8" opacity=".3"><animate attributeName="opacity" values=".1;.75;.1" dur="2.7s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="620" cy="385" r=".6" opacity=".2"><animate attributeName="opacity" values=".15;.6;.15" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="780" cy="392" r=".7" opacity=".25"><animate attributeName="opacity" values=".1;.7;.1" dur="4.4s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="860" cy="380" r=".5" opacity=".2"><animate attributeName="opacity" values=".1;.55;.1" dur="3.0s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="75" cy="190" r=".6" opacity=".2"><animate attributeName="opacity" values=".1;.5;.1" dur="4.6s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="48" cy="290" r=".7" opacity=".3"><animate attributeName="opacity" values=".15;.65;.15" dur="3.3s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="850" cy="150" r=".5" opacity=".2"><animate attributeName="opacity" values=".1;.6;.1" dur="3.9s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="870" cy="280" r=".6" opacity=".25"><animate attributeName="opacity" values=".15;.7;.15" dur="4.1s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="500" cy="80" r=".7" opacity=".2"><animate attributeName="opacity" values=".1;.55;.1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="400" cy="370" r=".5" opacity=".3"><animate attributeName="opacity" values=".15;.8;.15" dur="2.6s" repeatCount="indefinite"/></circle>
+
+  <!-- ════════ GALAXY CORE ════════ -->
+  <circle cx="210" cy="210" r="120" fill="url(#gc)">
+    <animate attributeName="opacity" values=".5;.8;.5" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="210" cy="210" r="60" fill="url(#gc2)">
+    <animate attributeName="opacity" values=".3;.6;.3" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Core bright dot -->
+  <circle cx="210" cy="210" r="3" fill="#58a6ff" filter="url(#gl)" opacity=".7">
+    <animate attributeName="opacity" values=".4;.9;.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ════════ ORBITING DATA (CHAOS) ════════ -->
+  <!-- P1: Red — large orbit -->
+  <g transform="translate(210,210)">
+    <circle r="5" fill="#ff7b72" filter="url(#gl)" opacity=".85">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M110,0 A110,55 0 1 1 -110,0 A110,55 0 1 1 110,0"/>
+    </circle>
+  </g>
+  <!-- P2: Yellow — tilted orbit -->
+  <g transform="translate(210,210) rotate(40)">
+    <circle r="4" fill="#d29922" filter="url(#gl)" opacity=".8">
+      <animateMotion dur="4.5s" repeatCount="indefinite" path="M85,0 A85,40 0 1 0 -85,0 A85,40 0 1 0 85,0"/>
+    </circle>
+  </g>
+  <!-- P3: Green — wide orbit -->
+  <g transform="translate(210,210) rotate(-25)">
+    <circle r="6" fill="#3fb950" filter="url(#gl)" opacity=".8">
+      <animateMotion dur="7.5s" repeatCount="indefinite" path="M125,0 A125,60 0 1 1 -125,0 A125,60 0 1 1 125,0"/>
+    </circle>
+  </g>
+  <!-- P4: Purple — small fast orbit -->
+  <g transform="translate(210,210) rotate(75)">
+    <circle r="3" fill="#bc8cff" filter="url(#gl)" opacity=".8">
+      <animateMotion dur="3s" repeatCount="indefinite" path="M55,0 A55,30 0 1 1 -55,0 A55,30 0 1 1 55,0"/>
+    </circle>
+  </g>
+  <!-- P5: Cyan — medium orbit counter -->
+  <g transform="translate(210,210) rotate(-50)">
+    <circle r="4" fill="#79c0ff" filter="url(#gl)" opacity=".75">
+      <animateMotion dur="5.5s" repeatCount="indefinite" path="M95,0 A95,48 0 1 0 -95,0 A95,48 0 1 0 95,0"/>
+    </circle>
+  </g>
+  <!-- P6: Orange — tilted large -->
+  <g transform="translate(210,210) rotate(110)">
+    <circle r="3.5" fill="#ffa657" filter="url(#gl)" opacity=".8">
+      <animateMotion dur="8s" repeatCount="indefinite" path="M130,0 A130,45 0 1 1 -130,0 A130,45 0 1 1 130,0"/>
+    </circle>
+  </g>
+  <!-- P7: Red small — inner orbit -->
+  <g transform="translate(210,210) rotate(160)">
+    <circle r="2.5" fill="#ff7b72" opacity=".7">
+      <animateMotion dur="2.5s" repeatCount="indefinite" path="M40,0 A40,22 0 1 0 -40,0 A40,22 0 1 0 40,0"/>
+    </circle>
+  </g>
+  <!-- P8: Yellow — medium tilted -->
+  <g transform="translate(210,210) rotate(-80)">
+    <circle r="3" fill="#d29922" opacity=".7">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M75,0 A75,38 0 1 1 -75,0 A75,38 0 1 1 75,0"/>
+    </circle>
+  </g>
+  <!-- P9: Green small — fast inner -->
+  <g transform="translate(210,210) rotate(30)">
+    <circle r="2" fill="#3fb950" opacity=".65">
+      <animateMotion dur="2s" repeatCount="indefinite" path="M35,0 A35,18 0 1 0 -35,0 A35,18 0 1 0 35,0"/>
+    </circle>
+  </g>
+  <!-- P10: Cyan — outer slow -->
+  <g transform="translate(210,210) rotate(-10)">
+    <circle r="4.5" fill="#79c0ff" filter="url(#gl)" opacity=".7">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M140,0 A140,65 0 1 1 -140,0 A140,65 0 1 1 140,0"/>
+    </circle>
+  </g>
+  <!-- P11: Purple — medium -->
+  <g transform="translate(210,210) rotate(55)">
+    <circle r="3" fill="#bc8cff" opacity=".7">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M70,0 A70,35 0 1 0 -70,0 A70,35 0 1 0 70,0"/>
+    </circle>
+  </g>
+  <!-- P12: White — tiny dust -->
+  <g transform="translate(210,210) rotate(140)">
+    <circle r="1.5" fill="#e6edf3" opacity=".5">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M50,0 A50,25 0 1 1 -50,0 A50,25 0 1 1 50,0"/>
+    </circle>
+  </g>
+
+  <!-- Data type labels orbiting -->
+  <g transform="translate(210,210) rotate(20)" opacity=".35">
+    <text font-family="monospace" font-size="8" fill="#ff7b72">
+      <animateMotion dur="10s" repeatCount="indefinite" path="M130,0 A130,60 0 1 1 -130,0 A130,60 0 1 1 130,0"/>
+      JSON
+    </text>
+  </g>
+  <g transform="translate(210,210) rotate(-40)" opacity=".3">
+    <text font-family="monospace" font-size="8" fill="#d29922">
+      <animateMotion dur="8s" repeatCount="indefinite" path="M105,0 A105,50 0 1 0 -105,0 A105,50 0 1 0 105,0"/>
+      CSV
+    </text>
+  </g>
+  <g transform="translate(210,210) rotate(90)" opacity=".3">
+    <text font-family="monospace" font-size="7" fill="#3fb950">
+      <animateMotion dur="12s" repeatCount="indefinite" path="M145,0 A145,70 0 1 1 -145,0 A145,70 0 1 1 145,0"/>
+      API
+    </text>
+  </g>
+  <g transform="translate(210,210) rotate(-70)" opacity=".25">
+    <text font-family="monospace" font-size="7" fill="#bc8cff">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M80,0 A80,42 0 1 0 -80,0 A80,42 0 1 0 80,0"/>
+      LOG
+    </text>
+  </g>
+
+  <!-- ════════ FUNNEL / VORTEX ════════ -->
+  <!-- Funnel outline -->
+  <line class="funnel-line" x1="370" y1="105" x2="555" y2="190"/>
+  <line class="funnel-line" x1="370" y1="315" x2="555" y2="230"/>
+
+  <!-- Spiral rings inside funnel -->
+  <ellipse class="funnel-spiral" cx="420" cy="210" rx="50" ry="22" opacity=".2">
+    <animateTransform attributeName="transform" type="rotate" from="0 420 210" to="360 420 210" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse class="funnel-spiral" cx="460" cy="210" rx="35" ry="16" opacity=".25">
+    <animateTransform attributeName="transform" type="rotate" from="0 460 210" to="-360 460 210" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse class="funnel-spiral" cx="500" cy="210" rx="22" ry="10" opacity=".3">
+    <animateTransform attributeName="transform" type="rotate" from="0 500 210" to="360 500 210" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse class="funnel-spiral" cx="530" cy="210" rx="12" ry="5" opacity=".35">
+    <animateTransform attributeName="transform" type="rotate" from="0 530 210" to="-360 530 210" dur="1.5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Funnel glow at exit point -->
+  <circle cx="555" cy="210" r="8" fill="#3fb950" filter="url(#gl2)" opacity=".4">
+    <animate attributeName="opacity" values=".2;.6;.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="210" r="3" fill="#fff" opacity=".5">
+    <animate attributeName="opacity" values=".3;.8;.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ════════ PARTICLES THROUGH FUNNEL ════════ -->
+  <!-- Particle A: sucked from galaxy into funnel -->
+  <circle r="4" fill="#ff7b72" opacity="0">
+    <animateMotion dur="5s" repeatCount="indefinite" begin="0s" path="M210,210 C300,210 400,210 555,210"/>
+    <animate attributeName="opacity" values="0;.8;.8;.2;0" dur="5s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="r" values="5;4;3;2;1" dur="5s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle r="4" fill="#d29922" opacity="0">
+    <animateMotion dur="5s" repeatCount="indefinite" begin="1.2s" path="M210,195 C310,200 420,208 555,210"/>
+    <animate attributeName="opacity" values="0;.7;.7;.2;0" dur="5s" repeatCount="indefinite" begin="1.2s"/>
+    <animate attributeName="r" values="4;3;2;1.5;1" dur="5s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+  <circle r="4" fill="#3fb950" opacity="0">
+    <animateMotion dur="5s" repeatCount="indefinite" begin="2.5s" path="M210,225 C290,222 430,215 555,210"/>
+    <animate attributeName="opacity" values="0;.8;.7;.2;0" dur="5s" repeatCount="indefinite" begin="2.5s"/>
+    <animate attributeName="r" values="6;4;3;2;1" dur="5s" repeatCount="indefinite" begin="2.5s"/>
+  </circle>
+  <circle r="3" fill="#79c0ff" opacity="0">
+    <animateMotion dur="5s" repeatCount="indefinite" begin="3.8s" path="M210,200 C320,205 450,209 555,210"/>
+    <animate attributeName="opacity" values="0;.75;.75;.2;0" dur="5s" repeatCount="indefinite" begin="3.8s"/>
+    <animate attributeName="r" values="4;3;2;1.5;1" dur="5s" repeatCount="indefinite" begin="3.8s"/>
+  </circle>
+
+  <!-- ════════ CLEAN OUTPUT (RIGHT SIDE) ════════ -->
+  <!-- Organized data blocks sliding out -->
+  <g>
+    <rect class="out-bar" x="600" y="168" width="65" height="8" opacity="0">
+      <animate attributeName="opacity" values="0;.85;.85;0" dur="6s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="x" values="570;650" dur="6s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+    <rect class="out-bar" x="600" y="183" width="50" height="8" opacity="0">
+      <animate attributeName="opacity" values="0;.7;.7;0" dur="6s" repeatCount="indefinite" begin="1.4s"/>
+      <animate attributeName="x" values="570;660" dur="6s" repeatCount="indefinite" begin="1.4s"/>
+    </rect>
+    <rect class="out-bar" x="600" y="198" width="80" height="8" opacity="0">
+      <animate attributeName="opacity" values="0;.9;.9;0" dur="6s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="x" values="570;640" dur="6s" repeatCount="indefinite" begin="1.8s"/>
+    </rect>
+    <rect class="out-bar" x="600" y="213" width="55" height="8" opacity="0">
+      <animate attributeName="opacity" values="0;.75;.75;0" dur="6s" repeatCount="indefinite" begin="2.2s"/>
+      <animate attributeName="x" values="570;655" dur="6s" repeatCount="indefinite" begin="2.2s"/>
+    </rect>
+    <rect class="out-bar" x="600" y="228" width="70" height="8" opacity="0">
+      <animate attributeName="opacity" values="0;.8;.8;0" dur="6s" repeatCount="indefinite" begin="2.6s"/>
+      <animate attributeName="x" values="570;645" dur="6s" repeatCount="indefinite" begin="2.6s"/>
+    </rect>
+    <rect class="out-bar" x="600" y="243" width="45" height="8" opacity="0">
+      <animate attributeName="opacity" values="0;.7;.7;0" dur="6s" repeatCount="indefinite" begin="3s"/>
+      <animate attributeName="x" values="570;665" dur="6s" repeatCount="indefinite" begin="3s"/>
+    </rect>
+  </g>
+
+  <!-- Small dashboard icon on the right -->
+  <g transform="translate(770, 175)" opacity=".5">
+    <rect width="60" height="50" rx="4" fill="none" stroke="#3fb950" stroke-width="1"/>
+    <rect x="8" y="30" width="10" height="14" fill="#3fb950" opacity=".6"/>
+    <rect x="22" y="22" width="10" height="22" fill="#58a6ff" opacity=".6"/>
+    <rect x="36" y="14" width="10" height="30" fill="#3fb950" opacity=".6"/>
+    <animate attributeName="opacity" values=".3;.6;.3" dur="4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ════════ LABELS ════════ -->
+  <text class="label label-dim" x="210" y="365" text-anchor="middle">Dados Brutos</text>
+  <text class="label label-blue" x="460" y="365" text-anchor="middle" filter="url(#gl)">⚡ Pipeline</text>
+  <text class="label label-green" x="720" y="365" text-anchor="middle">✨ Insights</text>
+
+  <!-- Subtle arrows -->
+  <line x1="310" y1="360" x2="370" y2="360" stroke="#21262d" stroke-width="1" opacity=".4" marker-end="none"/>
+  <polygon points="375,356 385,360 375,364" fill="#21262d" opacity=".4"/>
+  <line x1="550" y1="360" x2="610" y2="360" stroke="#21262d" stroke-width="1" opacity=".4"/>
+  <polygon points="615,356 625,360 615,364" fill="#21262d" opacity=".4"/>
+</svg>

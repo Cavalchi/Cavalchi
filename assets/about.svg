@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="850" height="420">
+  <defs>
+    <style>
+      @keyframes appear { from { opacity:0; transform:translateY(4px) } to { opacity:1; transform:translateY(0) } }
+      @keyframes blink { 0%,100%{ opacity:1 } 50%{ opacity:0 } }
+      @keyframes scanline { from { transform: translateY(-100%) } to { transform: translateY(420px) } }
+      @keyframes barGrow { from { width: 0 } to { width: 220px } }
+
+      .term-bg { fill: #0d1117; rx: 12; }
+      .term-bar { fill: #161b22; }
+      .dot-r { fill: #ff5f57; } .dot-y { fill: #febc2e; } .dot-g { fill: #28c840; }
+      .bar-title { fill: #8b949e; font-family: 'SF Mono','Fira Code',monospace; font-size: 12px; text-anchor: middle; }
+      .prompt { fill: #3fb950; font-family: 'SF Mono','Fira Code','Cascadia Code',Consolas,monospace; font-size: 13px; }
+      .cmd { fill: #e6edf3; font-family: 'SF Mono','Fira Code','Cascadia Code',Consolas,monospace; font-size: 13px; }
+      .output { fill: #8b949e; font-family: 'SF Mono','Fira Code','Cascadia Code',Consolas,monospace; font-size: 13px; }
+      .key { fill: #ff7b72; font-family: 'SF Mono','Fira Code','Cascadia Code',Consolas,monospace; font-size: 13px; }
+      .val { fill: #a5d6ff; font-family: 'SF Mono','Fira Code','Cascadia Code',Consolas,monospace; font-size: 13px; }
+      .list { fill: #7ee787; font-family: 'SF Mono','Fira Code','Cascadia Code',Consolas,monospace; font-size: 13px; }
+      .comment { fill: #6e7681; font-family: 'SF Mono','Fira Code','Cascadia Code',Consolas,monospace; font-size: 13px; font-style: italic; }
+      .cursor { fill: #58a6ff; animation: blink 1s step-end infinite; }
+      .line { opacity: 0; }
+      .l1  { animation: appear .4s ease forwards .3s; }
+      .l2  { animation: appear .4s ease forwards .7s; }
+      .l3  { animation: appear .4s ease forwards 1.0s; }
+      .l4  { animation: appear .4s ease forwards 1.3s; }
+      .l5  { animation: appear .4s ease forwards 1.6s; }
+      .l6  { animation: appear .4s ease forwards 1.9s; }
+      .l7  { animation: appear .4s ease forwards 2.2s; }
+      .l8  { animation: appear .4s ease forwards 2.5s; }
+      .l9  { animation: appear .4s ease forwards 2.8s; }
+      .l10 { animation: appear .4s ease forwards 3.1s; }
+      .l11 { animation: appear .4s ease forwards 3.4s; }
+      .l12 { animation: appear .4s ease forwards 3.7s; }
+      .l13 { animation: appear .4s ease forwards 4.0s; }
+      .l14 { animation: appear .4s ease forwards 4.3s; }
+      .l15 { animation: appear .4s ease forwards 4.6s; }
+      .l16 { animation: appear .4s ease forwards 4.9s; }
+      .l17 { animation: appear .4s ease forwards 5.2s; }
+      .scanline { fill: rgba(88,166,255,0.03); animation: scanline 4s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Terminal window -->
+  <rect class="term-bg" width="850" height="420" rx="12"/>
+  
+  <!-- Title bar -->
+  <rect class="term-bar" width="850" height="36" rx="12"/>
+  <rect class="term-bar" y="12" width="850" height="24"/>
+  <circle class="dot-r" cx="20" cy="18" r="6"/>
+  <circle class="dot-y" cx="40" cy="18" r="6"/>
+  <circle class="dot-g" cx="60" cy="18" r="6"/>
+  <text class="bar-title" x="425" y="22">cavalchi@data-eng: ~/profile</text>
+
+  <!-- Scanline effect -->
+  <rect class="scanline" x="0" y="0" width="850" height="4"/>
+
+  <!-- Terminal content -->
+  <g transform="translate(20, 60)">
+    <!-- Line 1: command -->
+    <g class="line l1">
+      <text class="prompt" y="0">cavalchi@data-eng:~$</text>
+      <text class="cmd" x="192" y="0"> cat profile.yml</text>
+    </g>
+
+    <!-- Line 2: blank + comment -->
+    <g class="line l2">
+      <text class="comment" y="24"># ─── identity ───────────────────────────────</text>
+    </g>
+
+    <!-- Line 3 -->
+    <g class="line l3">
+      <text class="key" y="48">nome:</text>
+      <text class="val" x="48" y="48"> "João Pedro Cavalchi de Carvalho"</text>
+    </g>
+
+    <!-- Line 4 -->
+    <g class="line l4">
+      <text class="key" y="72">location:</text>
+      <text class="val" x="78" y="72"> "Brasil 🇧🇷"</text>
+    </g>
+
+    <!-- Line 5 -->
+    <g class="line l5">
+      <text class="key" y="96">role:</text>
+      <text class="val" x="42" y="96"> "Data Engineer"</text>
+    </g>
+
+    <!-- Line 6 -->
+    <g class="line l6">
+      <text class="key" y="120">experience:</text>
+      <text class="val" x="96" y="120"> "+2 anos em projetos data-driven"</text>
+    </g>
+
+    <!-- Line 7: comment -->
+    <g class="line l7">
+      <text class="comment" y="152"># ─── tech stack ─────────────────────────────</text>
+    </g>
+
+    <!-- Line 8 -->
+    <g class="line l8">
+      <text class="key" y="176">languages:</text>
+      <text class="list" x="88" y="176"> [Python, SQL, Bash]</text>
+    </g>
+
+    <!-- Line 9 -->
+    <g class="line l9">
+      <text class="key" y="200">processing:</text>
+      <text class="list" x="96" y="200"> [Spark, Kafka, Airflow, dbt]</text>
+    </g>
+
+    <!-- Line 10 -->
+    <g class="line l10">
+      <text class="key" y="224">storage:</text>
+      <text class="list" x="72" y="224"> [PostgreSQL, BigQuery, S3, Delta Lake]</text>
+    </g>
+
+    <!-- Line 11 -->
+    <g class="line l11">
+      <text class="key" y="248">cloud:</text>
+      <text class="list" x="52" y="248"> [AWS, GCP, Azure, Docker, Terraform]</text>
+    </g>
+
+    <!-- Line 12: comment -->
+    <g class="line l12">
+      <text class="comment" y="280"># ─── mission ────────────────────────────────</text>
+    </g>
+
+    <!-- Line 13 -->
+    <g class="line l13">
+      <text class="key" y="304">mission:</text>
+      <text class="val" x="70" y="304"> &gt;</text>
+    </g>
+
+    <!-- Line 14 -->
+    <g class="line l14">
+      <text class="val" x="16" y="328">Transformar dados brutos em ativos estratégicos</text>
+    </g>
+
+    <!-- Line 15 -->
+    <g class="line l15">
+      <text class="val" x="16" y="352">com pipelines robustos, escaláveis e automatizados.</text>
+    </g>
+
+    <!-- Line 16: new prompt -->
+    <g class="line l16">
+      <text class="prompt" y="384">cavalchi@data-eng:~$</text>
+      <rect class="cursor" x="192" y="372" width="8" height="16" rx="1"/>
+    </g>
+  </g>
+</svg>
