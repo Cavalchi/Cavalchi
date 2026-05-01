@@ -58,6 +58,7 @@
 
   <!-- SOURCE node -->
   <g filter="url(#ng)">
+    <rect x="30" y="55" width="110" height="50" rx="6" fill="#0d1117"/>
     <rect x="30" y="55" width="110" height="50" rx="6" fill="#1f6feb15" stroke="#1f6feb" stroke-width="1" opacity="0.9">
       <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" repeatCount="indefinite"/>
     </rect>
@@ -67,6 +68,7 @@
 
   <!-- INGEST node -->
   <g filter="url(#ng)">
+    <rect x="210" y="55" width="110" height="50" rx="6" fill="#0d1117"/>
     <rect x="210" y="55" width="110" height="50" rx="6" fill="#1f6feb15" stroke="#1f6feb" stroke-width="1" opacity="0.9">
       <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="0.5s" repeatCount="indefinite"/>
     </rect>
@@ -76,6 +78,7 @@
 
   <!-- TRANSFORM node -->
   <g filter="url(#ng)">
+    <rect x="390" y="55" width="120" height="50" rx="6" fill="#0d1117"/>
     <rect x="390" y="55" width="120" height="50" rx="6" fill="#1D9E7515" stroke="#1D9E75" stroke-width="1" opacity="0.9">
       <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="1s" repeatCount="indefinite"/>
     </rect>
@@ -85,6 +88,7 @@
 
   <!-- SERVE node -->
   <g filter="url(#ng)">
+    <rect x="572" y="55" width="118" height="50" rx="6" fill="#0d1117"/>
     <rect x="572" y="55" width="118" height="50" rx="6" fill="#EF9F2715" stroke="#EF9F27" stroke-width="1" opacity="0.9">
       <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="1.5s" repeatCount="indefinite"/>
     </rect>
@@ -94,6 +98,7 @@
 
   <!-- CONSUME node -->
   <g filter="url(#ng)">
+    <rect x="750" y="55" width="118" height="50" rx="6" fill="#0d1117"/>
     <rect x="750" y="55" width="118" height="50" rx="6" fill="#58a6ff15" stroke="#58a6ff" stroke-width="1" opacity="0.9">
       <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="2s" repeatCount="indefinite"/>
     </rect>

@@ -43,6 +43,16 @@
 <img src="./assets/divider.svg" width="100%"/>
 <!-- ═══════════════════════════════════════════ -->
 
+## 🎣 &nbsp;Data Lake
+
+<div align="center">
+  <img src="./assets/datalake.svg" width="100%" alt="Pixel art fisherman fishing for data in the Data Lake — JSON, CSV, SQL, API, LOG, PARQUET swimming as fish"/>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<img src="./assets/divider.svg" width="100%"/>
+<!-- ═══════════════════════════════════════════ -->
+
 ## ⚡ &nbsp;Tech Arsenal
 
 <div align="center">
