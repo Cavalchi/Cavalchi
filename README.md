@@ -33,6 +33,22 @@
 <img src="./assets/divider.svg" width="100%"/>
 <!-- ═══════════════════════════════════════════ -->
 
+## 🌌 &nbsp;De Caos a Insight
+
+<div align="center">
+  <img src="./assets/galaxy-pipeline.svg" width="100%" alt="Galaxy Pipeline - Dados brutos orbitando como estrelas, entrando no funil do pipeline e saindo organizados"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <em>Dados brutos orbitam como estrelas numa galáxia caótica → entram no vortex do pipeline → saem limpos, estruturados e prontos pra decisão.</em>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<img src="./assets/divider.svg" width="100%"/>
+<!-- ═══════════════════════════════════════════ -->
+
 ## 🏗️ &nbsp;Pipeline Architecture
 
 <div align="center">
