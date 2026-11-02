@@ -25,6 +25,8 @@ Meu sonho ainda é receber uma planilha com o cabeçalho na primeira linha.
   <a href="https://github.com/Cavalchi/Pipeline-de-Vendas-E-commerce"><img src="./assets/card-olist.svg" width="49%" alt="Pipeline Olist: carga em lotes no PostgreSQL"/></a>
 </p>
 
+<img src="./assets/datalake.svg" width="100%" alt="Um pescador sentado no píer pesca arquivos de dados no data lake e guarda no balde de ETL"/>
+
 <br/>
 
 ### Como eu trabalho
@@ -43,10 +45,11 @@ Meu sonho ainda é receber uma planilha com o cabeçalho na primeira linha.
 
 <!--
   Assets antigos, fora de uso. Continuam em assets/ caso queira voltar com algum:
-  about.svg, connect.svg, datalake.svg, divider.svg, galaxy-pipeline.svg, pipeline.svg
+  about.svg, connect.svg, divider.svg, galaxy-pipeline.svg, pipeline.svg
 
   Os SVGs atuais (header, card-*, btn-*) têm a fonte Geist embutida.
   Paleta (grafite + vermelho Marlboro) e efeitos vêm de scripts/theme.py: `python3 scripts/theme.py rosso assets`.
+  O pescador (datalake.svg) vem de scripts/datalake.py.
 
   Cobrinha de contribuições (gerada por .github/workflows/snake.yml):
   <picture>
