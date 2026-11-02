@@ -46,6 +46,7 @@ Meu sonho ainda é receber uma planilha com o cabeçalho na primeira linha.
   about.svg, connect.svg, datalake.svg, divider.svg, galaxy-pipeline.svg, pipeline.svg
 
   Os SVGs atuais (header, card-*, btn-*) têm a fonte Geist embutida.
+  Paleta (violeta → ciano) e efeitos vêm de scripts/theme.py: `python3 scripts/theme.py violeta assets`.
 
   Cobrinha de contribuições (gerada por .github/workflows/snake.yml):
   <picture>
